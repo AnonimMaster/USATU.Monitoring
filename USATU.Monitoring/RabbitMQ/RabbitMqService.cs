@@ -17,7 +17,7 @@ namespace USATU.Monitoring.Web.RabbitMQ
         {
             // Не забудьте вынести значения "localhost" и "MyQueue"
             // в файл конфигурации
-            var factory = new ConnectionFactory() { Uri = new Uri("amqps://orngzufv:btLxOYMSbnZDnVDrnQP6uqRlxcQ58oMz@moose.rmq.cloudamqp.com/orngzufv") };
+            var factory = new ConnectionFactory() { Uri = new Uri("amqps://...") };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
